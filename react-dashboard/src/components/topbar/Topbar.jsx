@@ -26,9 +26,11 @@ export default function Topbar() {
 </Button>
 
 <Apps className="icons neon apps"/>
+<span className="bubble">2</span>
 <Email className="icons neon email"/>
+<span className="bubble">3</span>
 <NotificationsNone className="icons neon notification"/>
-   
+   <div><img className="avartar" src="https://media-s3-us-east-1.ceros.com/forbes/images/2021/12/06/bbff530cddcb7ed1b79ecee931f9f854/artboard-2-copy-6.jpg" alt=""/></div>
 </div>
 
         </div>
