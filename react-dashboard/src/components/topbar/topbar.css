@@ -1,10 +1,11 @@
 .topbar{
 display:sticky;
-
 width:100%;
 top:0px;
 z-index:999;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-color:rgba(161, 161, 161, 0.24);
+/*To be fixed later*/
 }
 
 .wrapper{
@@ -56,18 +57,49 @@ button{
 }
 
 .icons{
-margin-right: 50px;
+margin-right: 30px;
 cursor:pointer;
+height:18px !important;
+width: 18px !important;
 }
 
 .notification{
-    box-shadow:inset 0 0 1.3rem #57f011;
+    box-shadow:inset 0 0 1.3rem #6df32f;
+}
+.notification:hover{
+    box-shadow:inset 0 0 1.3rem #15ff00;
 }
 
 .email{
     box-shadow:inset 0 0 1.3rem #2d3af8;
 }
+.email:hover{
+    box-shadow:inset 0 0 1.3rem #0011ff;
+}
+
 
 .apps{
-    box-shadow:inset 0 0 1.3rem #f01f1f;
+    box-shadow:inset 0 0 1.3rem #f73131;
+}
+.apps:hover{
+    box-shadow:inset 0 0 1.3rem #ff0000;
+}
+
+.avartar{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+
+.bubble{
+background:red;
+border-radius:50px;
+width:20px;
+height: 20px;
+text-align:center;
+font-size:11px;
+color:white;
+position:relative;
+bottom:15px;
+left:45px;
 }
