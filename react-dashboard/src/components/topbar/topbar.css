@@ -3,14 +3,15 @@ display:sticky;
 width:100%;
 top:0px;
 z-index:999;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-background-color:rgba(161, 161, 161, 0.24);
-/*To be fixed later*/
+background-color:rgb(39, 39, 39);
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
 }
 
 .wrapper{
-    margin:8px 30px;
+    margin:0 30px;
     display:flex;
+    height:70px;
     }
     
 
@@ -18,11 +19,26 @@ background-color:rgba(161, 161, 161, 0.24);
     flex:1;
     font-weight:bold;
     font-size:30px;
-    color:darkblue;
+    color:rgb(245, 245, 245);
     cursor: pointer;
     display:flex;
     align-items: center;
     }
+
+.searchInput{
+background-color: aliceblue;
+border-radius: 4px;
+height:20px;
+
+padding:6px;
+font-size:17px;
+}
+
+.searchButton{
+    margin-left:7px !important;
+    box-shadow:inset 0 0 1.3rem #3ef82d !important;
+}
+
 
 .search-buttons-icons{
     margin-left:15px;
@@ -30,12 +46,14 @@ background-color:rgba(161, 161, 161, 0.24);
         display:flex;
        justify-content: space-between;
 align-items:center;
+
        
     }
 
     .box-menu-text{
         display:flex;
         align-items:center;
+       
     }
 
    
@@ -46,6 +64,7 @@ align-items:center;
     width:20px !important;
     height:20px !important;
     cursor:pointer;
+    
 }
 
 
@@ -54,13 +73,16 @@ button{
     box-shadow:inset 0 0 1.3rem #f30ef3 !important;
     cursor:pointer;
     margin-right: 100px !important;
+    
 }
 
 .icons{
-margin-right: 30px;
+margin-right: 5px;
 cursor:pointer;
 height:18px !important;
 width: 18px !important;
+border-radius:4px; 
+color:rgb(233, 233, 233);
 }
 
 .notification{
@@ -86,8 +108,9 @@ width: 18px !important;
 }
 
 .avartar{
-    width:50px;
-    height:50px;
+   margin-left:60px;
+    width:40px;
+    height:40px;
     border-radius:50%;
 }
 

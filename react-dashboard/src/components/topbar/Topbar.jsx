@@ -1,7 +1,8 @@
 import React from 'react';
 import './topbar.css';
-import {  Menu, NotificationsNone, Add, Email, Apps } from '@material-ui/icons';
-import { TextField, Button } from '@material-ui/core';
+import {  NotificationsNone, Add, Email, Apps } from '@material-ui/icons';
+import { Button } from '@material-ui/core';
+import { Search } from '@material-ui/icons';
 
 
 export default function Topbar() {
@@ -9,13 +10,17 @@ export default function Topbar() {
     <div className="topbar">
       <div className="wrapper">
      
-         <div className="logo">DASHBOARD LOGO</div>
+         <div className="logo">ADMIN LOGO</div>
         
         <div className="search-buttons-icons">
             
             <div className="box-menu-text">
        
-        <TextField className="textfield" id="outlined-basic" label="Search" variant="outlined" />
+        <input name="" className="searchInput"/>
+        <Button className="neon searchButton" variant="contained" endIcon={<Search/>}>
+  Search
+</Button>
+        
         </div>
 
 
