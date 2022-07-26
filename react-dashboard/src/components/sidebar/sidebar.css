@@ -1,7 +1,7 @@
 .sidebar{
     flex:1;
     height:calc(100vh - 50px);
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(231, 226, 247);
     position:sticky;
     top:50px;
    
@@ -12,10 +12,40 @@
         padding:10px;
         color: rgb(43, 43, 43);
        margin:10px;
+       
+      
+    }
+
+    .sidebarTitle{
+/*border:2px solid red;*/
+        margin-bottom:5px !important;
     }
 
     .sidebarIcon{
         margin-right:5px;
         font-size:20px !important;
         list-style: none;
+font-weight: bold;
     }
+
+.sidebarList{
+
+    list-style-type: none;
+    padding-left:5px;
+    font-weight: 600;
+}
+
+.sidebarListItem{
+align-items: center;
+    display:flex;
+    font-size:18px;
+    padding:4px;
+    cursor:pointer;
+    border-bottom:2px solid gainsboro;
+}
+
+.sidebarListItem:hover, .sidebarListItem:active{
+
+
+    background-color: rgb(112, 112, 243);
+}

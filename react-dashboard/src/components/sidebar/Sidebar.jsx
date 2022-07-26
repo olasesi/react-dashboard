@@ -1,5 +1,7 @@
 import React from 'react'
 import { LineStyle, Timeline, TrendingUp } from '@material-ui/icons'
+
+
 import './sidebar.css';
 
 export default function Sidebar() {
@@ -11,19 +13,35 @@ export default function Sidebar() {
 <h3 className="sidebarTitle">Dashboard</h3>
 
 <ul className="sidebarList">
-                    <li className="sidebarListItem active">
+                    <li className=" sidebarListItem active">
 <LineStyle className="sidebarIcon"/>
-Home
+<span>Home</span>
                     </li>
                     <li className="sidebarListItem">
 <Timeline className="sidebarIcon"/>
-Analytics
+<span>Analytics</span>
                     </li>
                     <li className="sidebarListItem">
 <TrendingUp className="sidebarIcon"/>
-Sales
+<span>Sales</span>
                     </li>
                 </ul>
+
+
+               
+               
+
+
+               
+
+
+               
+
+
+
+
+
+
 
 </div>
 
