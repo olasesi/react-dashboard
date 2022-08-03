@@ -69,7 +69,7 @@ align-items:center;
 
 
 
-button{
+.button{
     box-shadow:inset 0 0 1.3rem #f30ef3 !important;
     cursor:pointer;
     margin-right: 100px !important;

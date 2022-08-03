@@ -1,0 +1,49 @@
+.widgetsmallwrapper{
+flex:2;
+
+}
+
+.listhead{
+    list-style-type: none;
+    padding:0;
+}
+
+.listrow{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+margin-top: 13px;    
+
+}
+
+.listimage{
+border-radius:50%;
+width:50px;
+height:50px;
+
+}
+
+.profession-info{
+display:flex;
+flex-direction: column;
+
+}
+
+.profession-name{
+    font-weight:bold;
+    font-size:16px;
+}
+
+.button-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-radius:4px;
+    border:1px solid rgb(136, 50, 223);
+    cursor:pointer;
+}
+
+.visibility{
+margin-right:4px;
+
+}
